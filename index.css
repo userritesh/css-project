@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar styling */
+/* General navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Left section with brand name */
+.navbar-left {
+    flex: 1;
+}
+
+.brand-name {
+    margin: 0;
+}
+
+/* Center section for search */
+.navbar-center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for the search input and icons */
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 80%; /* Adjust the width of the search field */
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    padding-left: 30px; /* Space for the search icon */
+    border-radius: 25px;
+    border: none;
+    background-color: #555;
+    color: white;
+}
+
+.search-icon, .fa-microphone-lines {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+}
+
+.search-icon {
+    left: 10px;
+}
+
+.fa-microphone-lines {
+    right: 10px;
+}
+
+/* Right section for user icon */
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+.top_section{
+    display: flex;
+    /* background: url('images.jpg') */
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    /* margin: 0; */
+    /* padding-top: 10px; */
+    padding-left: 50px;
+    z-index: 0;
+          
+}
+
+
+.sub_section1{
+    /* background: #062caa; */
+height: 300px;
+
+}
+.sub_section2{
+    /* background: #06aa5d; */
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.section2_card {
+    height: 100px;
+    width: 100%;
+    overflow: hidden; 
+    display: flex;
+    /* align-items: center; */
+    /* background: transparent; */
+
+  } 
+  .song_img{
+    height: 150px;
+    width: 100px;
+    
+  }
+
+  .section2_body{
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    background-color: transparent;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: flex-start; */
+    
+  }
+  h4 {
+    margin-left: 20px;
+  }
+
+  .card {
+    position: relative;
+    /* background-color: transparent; */
+}
+
+.song_img {
+    transition: all 0.3s ease; 
+}
+
+
+/* Hover effect for the image */
+.card:hover .song_img {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+.card:hover h4 {
+    color: #f0f0f0; 
+}
+
+/* Optional: Add some effects to the text */
+.section2_card h4 {
+    text-align: center;
+    color: #333;
+    transition: color 0.3s ease;
+}
+audio{
+    margin: 20px;
+}
+
+
+.sub_section3{
+    /* background: #aa0679; */
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.artist{
+    height: 100px;;
+    width: 100px;
+    /* background-color: #0611aa; */
+    /* border: solid black; */
+    margin: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.artist_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+
+}
+
+.sub_section4{
+    /* background: #8caa06; */
+    height: 300px;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.mode_section{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center center;
+
+
+
+}
+/* .mode_section {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    overflow: hidden; */
+     /* Ensure the image does not overflow */
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+     /* Smooth transition */
+/* } */
+
+.mode{
+    height: 120px;;
+    width: 120px;
+    background-color: #0611aa;
+    margin: 30px;
+    border-radius: 50%;
+    
+}
+.mode_type{
+    height: 170px;
+    width: 170px; 
+    padding: 20px;
+    padding-top: 30px;
+
+}
+.mode_type{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+.sub_section5{
+    /* background: #5b06aa; */
+    height: 300px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.mode_2{
+    height: 170px;
+    width: 170px; 
+    /* border: solid black; */
+    padding-top: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mode_type2{
+    height: 170px;
+    width: 1700px;
+}
+
+
+
+.sub_section6{
+    /* background: #067caa; */
+    height: 300px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
+.lastest_song{
+    height: 130px;
+    width: 130px;
+    background-color: aliceblue;
+    /* border: solid black; */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+
+}
+.hindi_song{
+    height: 130px;
+    width: 130px;
+    transition: all 0.3s ease;
+    /* margin: 20px; */
+
+}
+
+/* .lastest_song:hover .hindi_song {
+    transform: scale(1.1); 
+    opacity: 3.0; 
+} */
+
+.lastest_song:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7); 
+    /* transform: scale(1.05);  */
+}
+
+.sub_section7{
+
+    /* background: #aa0653; */
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.lastest{
+    height: 130px;
+    width: 130px;
+    margin: 20px;
+
+    
+
+
+}
+
+.img_eng{
+    width: 130px;
+    height: 130px;
+}
+
+
+.side_list{
+
+    height: 100px;
+    width: 200px;
+    /* background-color: rgb(5, 159, 248); */
+    /* border: solid black; */
+    margin: 50px;
+    display: flex;
+    
+
+}
+
+
+
+
+.slider{
+    width: 300px;
+    height: 250px;
+}
+
+/* .carousel-inner img {
+    width: 100%;
+    height: auto;
+} */
+ 
+/* .right_section{
+    background-color: #444;
+} */
+
+.bottom_section{
+    width: 100%;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+bottom: 0;
+
+
+
+}
+audio{
+    width: 50%;
+
+
+
+}
+
+/* .main_content {
+    height: 100vh;                
+    overflow-y: auto;            
+  } */
+
+
+  .side_section {
+    height: 100vh; 
+  }
+
+  .side_section_sub {
+    height: 100%; 
+    overflow-y: scroll;          
+                     
+    overflow-y: auto;                  
+    padding: 10px;                     
+  }
+
+  .fav{
+    height: 100px;
+    width: 150px;
+  }
+
+  /* .side_list {
+    overflow-y: auto;          
+} */
+
